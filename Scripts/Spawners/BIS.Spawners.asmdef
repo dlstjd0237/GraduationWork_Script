@@ -1,0 +1,17 @@
+{
+    "name": "BIS.Spawners",
+    "rootNamespace": "BIS.Spawners",
+    "references": [
+        "GUID:9e76ffd1f3f77a246968f93aa898a174",
+        "GUID:bc2bccc7fdd309a4a9509427df1b7d94"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

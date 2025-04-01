@@ -1,0 +1,19 @@
+{
+    "name": "BIS.Effects",
+    "rootNamespace": "BIS.Effects",
+    "references": [
+        "GUID:a68c710bc0e4d114cae4f2804c7b9f34",
+        "GUID:222e5ccfddd41b146b2cd2f3488d0808",
+        "GUID:be222a91110cb5245a3fb9738893c84e",
+        "GUID:5ae9e822e60836e4a83adafc6f091c8c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

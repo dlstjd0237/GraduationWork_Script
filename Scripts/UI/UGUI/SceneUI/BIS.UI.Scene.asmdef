@@ -1,0 +1,25 @@
+{
+    "name": "BIS.UI.Scene",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fe61c1b3e3c11174190e8d6edf7605df",
+        "GUID:8057891fc0ce59f429c76320e3f807a6",
+        "GUID:7a6e9789677761e4097bc1dcc134963f",
+        "GUID:bc2bccc7fdd309a4a9509427df1b7d94",
+        "GUID:6374a02135f2b7240980125fea8c745f",
+        "GUID:df520f69b0881294b925a872bae7d661",
+        "GUID:222e5ccfddd41b146b2cd2f3488d0808",
+        "GUID:0664225a2ff14d64ea099dd6240c2f4e",
+        "GUID:be222a91110cb5245a3fb9738893c84e",
+        "GUID:9e76ffd1f3f77a246968f93aa898a174"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "BIS.Editors",
+    "rootNamespace": "BIS.Editors",
+    "references": [
+        "GUID:9e76ffd1f3f77a246968f93aa898a174"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
