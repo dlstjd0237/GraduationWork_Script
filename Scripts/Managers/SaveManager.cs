@@ -9,7 +9,6 @@ using BIS.Data;
 
 namespace BIS.Manager
 {
-
     [Serializable]
     public struct SaveData
     {
@@ -25,17 +24,21 @@ namespace BIS.Manager
 
     public class SaveManager
     {
-        [SerializeField] private string _saveDataKey = "saveData";
+        [SerializeField] private string _saveDataKey = "saveData"; // 저장할 키
 
         private List<SaveData> _unUsedData = new List<SaveData>();
 
-        public void LoadGame()
+        public void LoadGame() // 게임 로드
         {
+            // PlayerPrefs에서 저장된 데이터를 가져옴
+            // 없으면 빈 문자열을 반환
             string loadData = PlayerPrefs.GetString(_saveDataKey, string.Empty);
+
+            // 데이터 불러오기
             RestoreData(loadData);
         }
 
-        private void RestoreData(string loadData)
+        private void RestoreData(string loadData) // 데이터 복원
         {
             IEnumerable<ISavable> savableObjects
                = Managers.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).OfType<ISavable>();
@@ -59,13 +62,13 @@ namespace BIS.Manager
             }
         }
 
-        public void SaveGame()
+        public void SaveGame() // 게임 저장
         {
             string dataToSave = GetDataToSave();
             PlayerPrefs.SetString(_saveDataKey, dataToSave);
         }
 
-        private string GetDataToSave()
+        private string GetDataToSave() // 저장할 데이터 가져오기
         {
             IEnumerable<ISavable> savableObjects
                 = Managers.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).OfType<ISavable>();
